@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strawberry</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+       <img src="images/TheEnd.jpg" width="500" alt="Billy and Jet walk down the street with their arms around eachother"/>
+       <p class="credits">Image Created with <a href="https://labs.google/fx/tools/image-fx">ImageFX</a></p>
+
+       <div class="audio-container">
+        <audio id="audio" src="TheEnd.mp3"></audio>
+        <button onclick="playAudio()">Play Sound</button>
+        </div>    
+
+       <p>Billy and Jet leave Huba Huba. Their arms draped around each other. <br>The Aberanos are forgotten. Something has shifted.<br>This is the beginning of something new.</p>
+       <br>
+       <p class="Home"><a href="index.html">Home</a></p>
+       <p><a href="page5.html">Previous</a></p>
+       <p><a href="credits.html">Credits</a></p>
+       
+
+       <script>
+        function playAudio() {
+            const audio = document.getElementById('audio');
+            audio.play();
+        }
+    </script>
+    </body>
+</html>

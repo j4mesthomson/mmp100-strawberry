@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strawberry</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+       <img src="images/OnTheRun.jpg" width="500" alt="Billy and Jet race through the night in an alleyway"/>
+       <p class="credits">Image Created with <a href="https://labs.google/fx/tools/image-fx">ImageFX</a></p>
+       
+       <div class="audio-container">
+       <audio id="audio" src="OnTheRunAudio.mp3"></audio>
+       <button onclick="playAudio()">Play Sound</button>
+       </div>
+
+       <p>Brooklyn, 1964. After a vicious brawl with their neighborhood rivals Tony and Sal, the notorious Aberano Brothers, Billy Branco and Jet Romano race through the streets, knuckles bloodied and shirts torn. <br> They howl like wolves at the moon as adrenaline pumps through them, searching for somewhere to lay low.</p>
+       <br>
+       <p><a href="page2.html">Next</a></p>
+       <p><a href="index.html">Previous</a></p>
+
+       <script>
+           function playAudio() {
+               const audio = document.getElementById('audio');
+               audio.play();
+           }
+       </script>
+    </body>
+</html>

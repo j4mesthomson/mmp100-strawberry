@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strawberry</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+       <img src="images/Shake.jpg" width="500" alt="Billy and Jet share a strawberry shake"/>
+       <p class="credits">Image Created with <a href="https://labs.google/fx/tools/image-fx">ImageFX</a></p>
+
+       <div class="audio-container">
+       <audio id="audio" src="TheShake.mp3"></audio>
+       <button onclick="playAudio()">Play Sound</button>
+       </div>
+
+       <p>They order a strawberry milkshake and with bruised hands they pass the glass back and forth. Billy's fingers graze Jet's as he brings the cold glass to his lips. The same straw that just touched Jet's, now between his own. </p>
+       <br>
+       <p><a href="page5.html">Next</a></p>
+       <p><a href="page3.html">Previous</a></p>
+       
+
+       <script>
+        function playAudio() {
+            const audio = document.getElementById('audio');
+            audio.play();
+        }
+    </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strawberry</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+       <img src="images/TheKiss.jpg" width="500" alt="Billy and Jet share a tender kiss"/>
+       <p class="credits">Image Created with <a href="https://labs.google/fx/tools/image-fx">ImageFX</a></p>
+
+       <div class="audio-container">
+       <audio id="audio" src="TheKiss.mp3"></audio>
+       <button onclick="playAudio()">Play Sound</button>
+       </div>
+
+       <p>The room feels quiet. The condensation beads and drips down the side of the nearly empty glass. Their eyes lock. Pupils dilate. Drawn to each other like magnets, they lean in, slowly... every inch an eternity. Hearts pounding. The tension is unbearable. And then- <span class="highlight2"> they kiss.</span></p>
+       <br>
+       <p><a href="page6.html">Next</a></p>
+       <p><a href="page4.html">Previous</a></p>
+       
+
+       <script>
+        function playAudio() {
+            const audio = document.getElementById('audio');
+            audio.play();
+        }
+    </script>
+    </body>
+</html>

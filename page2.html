@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strawberry</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+       <img src="images/HubaHuba.jpg" width="500" alt="The Huba Huba Luncheonette"/>
+       <p class="credits">Image Created with <a href="https://labs.google/fx/tools/image-fx">ImageFX</a></p>
+
+       <div class="audio-container">
+       <audio id="audio" src="LookBilly.mp3"></audio>
+       <button onclick="playAudio()">Play Sound</button>
+       </div>
+
+       <p>They turn a corner out of the alley, Jet shoves his greasy black hair out of his eyes and then he spots it: the glowing neon sign of the Huba Huba. Look Billy! Over there! Huba Huba! <br> Without missing a beat, they bolt toward it.</p>
+       <br>
+       <p><a href="page3.html">Next</a></p>
+       <p><a href="page1.html">Previous</a></p>
+       
+
+       <script>
+        function playAudio() {
+            const audio = document.getElementById('audio');
+            audio.play();
+        }
+    </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strawberry</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+       <img src="images/HideOut.jpg" width="500" alt="Billy and Jet hiding under the table in the diner"/>
+       <p class="credits">Image Created with <a href="https://labs.google/fx/tools/image-fx">ImageFX</a></p>
+
+       <div class="audio-container">
+       <audio id="audio" src="HideOutAudio.mp3"></audio>
+       <button onclick="playAudio()">Play Sound</button>
+       </div>
+
+       <p>They burst through the doors, dive into a red vinyl booth, and slide under the table. Crouching low. Breathing hard. Billy peeks over the edge and watches the Aberanos run by outside.<br>They're safe... for now. <br> Under the table, their shoulders are pressed against each other. <br> Something unspoken simmers.</p>
+       <br>
+       <p><a href="page4.html">Next</a></p>
+       <p><a href="page2.html">Previous</a></p>
+       
+
+       <script>
+        function playAudio() {
+            const audio = document.getElementById('audio');
+            audio.play();
+        }
+    </script>
+    </body>
+</html>
